@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mailboxvalidator/mailboxvalidator-php": "^1.1"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f6f8aa9fbd13b793a28021a1c3a19f79",
+    "packages": [
+        {
+            "name": "mailboxvalidator/mailboxvalidator-php",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MailboxValidator/mailboxvalidator-php.git",
+                "reference": "e0fe717880081ab01c158b64b8f35e55db645996"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MailboxValidator/mailboxvalidator-php/zipball/e0fe717880081ab01c158b64b8f35e55db645996",
+                "reference": "e0fe717880081ab01c158b64b8f35e55db645996",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MailboxValidator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "MailboxValidator",
+                    "email": "support@mailboxvalidator.com"
+                }
+            ],
+            "description": "Email verification library for PHP using MailboxValidator API. It validates if the email is valid, from a free provider, contains high-risk keywords, whether it's a catch-all address and so much more.",
+            "keywords": [
+                "email validation",
+                "mailboxvalidator"
+            ],
+            "time": "2018-09-20T02:27:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
